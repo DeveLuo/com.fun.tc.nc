@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Nc
+Bundle-SymbolicName: com.fun.tc.nc;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: FUN
+Require-Bundle: org.eclipse.ui,
+ com.teamcenter.rac.aifrcp;bundle-version="11000.2.0",
+ com.teamcenter.rac.kernel;bundle-version="11000.2.0",
+ com.teamcenter.rac.util;bundle-version="11000.2.0",
+ com.teamcenter.rac.ui.commands;bundle-version="11000.2.0",
+ com.teamcenter.rac.common;bundle-version="11000.2.0"
+Automatic-Module-Name: com.fun.tc.nc
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ClassPath: lib/swing2swt.jar,
+ .
