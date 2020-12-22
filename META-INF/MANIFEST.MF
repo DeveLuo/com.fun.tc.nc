@@ -10,7 +10,6 @@ Require-Bundle: org.eclipse.ui,
  com.teamcenter.rac.util;bundle-version="11000.2.0",
  com.teamcenter.rac.ui.commands;bundle-version="11000.2.0",
  com.teamcenter.rac.common;bundle-version="11000.2.0",
- com.yzh.CAM430;bundle-version="1.0.0",
  org.eclipse.core.runtime;bundle-version="3.8.0"
 Automatic-Module-Name: com.fun.tc.nc
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
