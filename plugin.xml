@@ -34,27 +34,69 @@
       <handler
             class="com.fun.tc.nc.handlers.CreateCAMHandler"
             commandId="com.fun.tc.nc.commands.CreateCAM">
+            <enabledWhen>
+			<and>
+				<or>
+               		<reference definitionId="com.teamcenter.rac.cme.mpp.inMainView"/>
+				</or>
+			</and>
+			</enabledWhen>
       </handler>
       <handler
             class="com.fun.tc.nc.handlers.CreateCAEHandler"
             commandId="com.fun.tc.nc.commands.CreateCAE">
+            <enabledWhen>
+			<and>
+				<or>
+               		<reference definitionId="com.teamcenter.rac.cme.mpp.inMainView"/>
+				</or>
+			</and>
+			</enabledWhen>
       </handler>
       <handler
             class="com.fun.tc.nc.handlers.ReviseCAEHandler"
             commandId="com.fun.tc.nc.commands.ReviseCAE">
+            <enabledWhen>
+			<and>
+				<or>
+               		<reference definitionId="com.teamcenter.rac.cme.mpp.inMainView"/>
+				</or>
+			</and>
+			</enabledWhen>
       </handler>
       
       <handler
             class="com.fun.tc.nc.handlers.DownloadCAMHandler"
             commandId="com.fun.tc.nc.commands.DownloadCAM">
+            <enabledWhen>
+			<and>
+				<or>
+               		<reference definitionId="com.teamcenter.rac.cme.mpp.inMainView"/>
+				</or>
+			</and>
+			</enabledWhen>
       </handler>
        <handler
             class="com.fun.tc.nc.handlers.UploadingCAMHandler"
             commandId="com.fun.tc.nc.commands.UploadingCAM">
+            <enabledWhen>
+			<and>
+				<or>
+               		<reference definitionId="com.teamcenter.rac.cme.mpp.inMainView"/>
+				</or>
+			</and>
+			</enabledWhen>
       </handler>
             <handler
             class="com.fun.tc.nc.handlers.UploadingReportHandler"
             commandId="com.fun.tc.nc.commands.UploadingReport">
+            <enabledWhen>
+			<and>
+				<or>
+               		<reference definitionId="com.teamcenter.rac.cme.mpp.inMainView"/>
+				</or>
+			</and>
+			</enabledWhen>
       </handler>
    </extension>
    <extension

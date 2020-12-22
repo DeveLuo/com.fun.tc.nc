@@ -50,7 +50,7 @@ public class CreateCAEDialog extends AbstractAIFDialog implements ActionListener
 	
 	public CreateCAEDialog(TCComponentItemRevision processRev) throws TCException {
 		super(AIFUtility.getActiveDesktop());
-		setTitle("新建数控程序集");
+		setTitle("新建数控工序（MENCMachining）");
 		this.processRev = processRev;
 		session = processRev.getSession();
 		itemType = (TCComponentItemType) session.getTypeComponent(type);
